@@ -1,0 +1,27 @@
+{
+    "name": "uirapuru/calculator",
+    "authors": [
+        {
+            "name": "Grzegorz 'Uirapuru' Kaszuba",
+            "email": "uirapuruadg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "infection/infection": "^0.16.1"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
